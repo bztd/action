@@ -19,7 +19,7 @@ if [[ $EUID -gt 0 ]]; then
 fi
 
 apt update && apt install -y gcc g++ texinfo make wget autoconf automake \
-libtool libtool-bin gawk curl bzip2 xz-utils tk8.6-dev tcl8.6-dev\
+libtool libtool-bin gawk curl bzip2 xz-utils tk8.6-dev tcl8.6-dev \
 patch libstdc++6 gettext libsigsegv-dev pkgconf 
 
 #////////////////////////////////////////////////////////////////////////////
