@@ -37,10 +37,14 @@ Downloading sources
 
 EOF
 
-mkdir sources
-touch /sources/txt.g
 
-mkdir build
+echo "Hola Mundo" > hola_mundo.txt
+
+git config --local user.email "action@github.com"
+git config --local user.name "GitHub Action"
+git add hola_mundo.txt
+git commit -m "Añadir archivo hola_mundo.txt"
+git push
 
 
 
