@@ -38,6 +38,8 @@ Downloading sources
 EOF
 
 mkdir sources
+touch /sources/txt.g
+
 mkdir build
 
 
